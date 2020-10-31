@@ -6,11 +6,13 @@ import SideBar from "./SideBar";
 function App() {
   return (
     <div className="app">
+    <div className="app__body">
     
     {/* {sideBar component} */}
     <SideBar /> 
     {/* {chat Comonent} */}
     <Chat />
+    </div>
     </div>
   );
 }
